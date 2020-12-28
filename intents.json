@@ -25,12 +25,17 @@
                "context_set": ""
         },
         {"tag": "jokes",
-               "patterns": ["Give me a joke", "Make me laugh", "Tell me a joke", "Tell me some jokes", "I want to listen to some jokes"],
+               "patterns": ["Give me a joke", "Make me laugh", "Tell me a joke", "Give me another joke!","Tell me some jokes","I want to listen to some jokes", "I want to hear a new one", "Give me a new one ANSI"],
                "responses": ["What’s the best thing about Switzerland?\nI don’t know, but the flag is a big plus.",
                              "Hear about the new restaurant called Karma?\nThere’s no menu: You get what you deserve",
                              "A woman in labor suddenly shouted, “Shouldn’t! Wouldn’t! Couldn’t! Didn’t! Can’t!”\n“Don’t worry,” said the doc. “Those are just contractions.”",
                              "Why don’t scientists trust atoms?\nBecause they make up everything.",
                              "A man tells his doctor, “Doc, help me. I’m addicted to Twitter!”\nThe doctor replies, “Sorry, I don’t follow you …”"],
+               "context_set": ""
+        },
+        {"tag": "praises",
+               "patterns": ["Hah that is interesting", "Very interesting ANSI", "I like your joke ANSI", "That is funny ANSI", "Very funny ANSI", "I like it"],
+               "responses": ["Thanks!", "Thank you! I feel good when others like my jokes", "I really feel great when others like my jokes. Thank you sir or madam!"],
                "context_set": ""
         }
    ]
