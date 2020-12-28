@@ -20,7 +20,7 @@ In this repository, I created a simple text-based AI chatbot using Keras, Natura
      
      <img src="https://github.com/RandomY-2/Neural_Net_Chatbot/blob/main/images/chatbot_loss.png">
      
-     After train.py finishes executing, the trained model will be saved as a HDF5 file, so the user doesn't need to train the model everytime he wants to interact with the chatbot.
+     After train.py finishes executing, the trained model will be saved as a HDF5 file, so users don't need to train the model everytime they want to interact with the chatbot.
      
 - chat.py
 
@@ -30,4 +30,6 @@ In this repository, I created a simple text-based AI chatbot using Keras, Natura
      
      This can clearly show that our chatbot isn't perfect. Furthermore, since the chatbot has no "memory" and only returns the responses based on the predictions of inputs, it cannot have an actual "conversation" with the user. This is fair since the bot is only created using a shallow neural network. 
      
-     
+## Use
+
+To play with this chatbot, the user can download all files and first run train.py. After that, the user just need to use the saved model and run chat.py everytime the user wants to play with the chatbot. If the user wants to change how the bot responds, the user can modify the intents.json and train a new model based on the new json file. 
